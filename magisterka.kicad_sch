@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1a174e90-46d1-4764-a5a6-e70c1d64e024")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 113.03 63.5)
+		(size 54.61 62.23)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c05ed58f-f959-4c6f-94b1-631f46788e11")
+		(property "Sheetname" "receiver"
+			(at 113.03 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "receiver.kicad_sch"
+			(at 113.03 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "magisterka"
+				(path "/1a174e90-46d1-4764-a5a6-e70c1d64e024"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 63.5)
+		(size 55.88 62.23)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d830d3f3-5dc7-4169-97bf-84fce22911c1")
+		(property "Sheetname" "transmitter"
+			(at 49.53 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "transmitter.kicad_sch"
+			(at 49.53 126.3146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "magisterka"
+				(path "/1a174e90-46d1-4764-a5a6-e70c1d64e024"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
