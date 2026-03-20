@@ -42,7 +42,6 @@
       13,
       15,
       16,
-      17,
       18,
       19,
       20,
@@ -74,7 +73,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "transmitter.kicad_prl",
+    "filename": "transmiter.kicad_prl",
     "version": 3
   },
   "project": {

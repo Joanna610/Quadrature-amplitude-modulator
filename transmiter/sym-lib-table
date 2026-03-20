@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "Communication_circuit")(type "KiCad")(uri "/home/joanna/Desktop/PCB_Projects/Quadrature-amplitude-modulator/Communication_circuit.kicad_sym")(options "")(descr ""))
+  (lib (name "Communication_circuit")(type "KiCad")(uri "${KICAD_QAM_DIR}/Communication_circuit.kicad_sym")(options "")(descr ""))
 )
