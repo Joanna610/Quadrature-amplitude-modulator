@@ -6528,7 +6528,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 22.86) (xy 40.64 26.67)
+			(xy 40.64 22.86) (xy 40.64 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7465,6 +7465,16 @@
 			(type default)
 		)
 		(uuid "f2f3d7da-f6b8-47fe-83ae-c15eee43eb9c")
+	)
+	(wire
+		(pts
+			(xy 40.64 33.02) (xy 40.64 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f428d9a9-e958-4cb6-9f96-f64db1958624")
 	)
 	(wire
 		(pts
@@ -9205,7 +9215,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 226.06 119.6848 0)
 			(effects
 				(font
@@ -9550,7 +9560,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k5"
+		(property "Value" "1k"
 			(at 195.58 53.3399 0)
 			(effects
 				(font
@@ -9752,7 +9762,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "100n"
 			(at 32.766 58.42 0)
 			(effects
 				(font
@@ -9965,7 +9975,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 226.06 112.0648 0)
 			(effects
 				(font
@@ -10095,7 +10105,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "220p"
 			(at 165.608 142.494 0)
 			(effects
 				(font
@@ -10296,7 +10306,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20p"
+		(property "Value" "10p"
 			(at 23.622 144.78 0)
 			(effects
 				(font
@@ -10762,7 +10772,7 @@
 				)
 			)
 		)
-		(property "Value" "80u"
+		(property "Value" "100u"
 			(at 69.85 194.056 90)
 			(effects
 				(font
@@ -11582,7 +11592,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k5"
+		(property "Value" "1k"
 			(at 186.69 53.3399 0)
 			(effects
 				(font
@@ -11798,7 +11808,7 @@
 				)
 			)
 		)
-		(property "Value" "80u"
+		(property "Value" "100u"
 			(at 146.05 195.326 90)
 			(effects
 				(font
@@ -12072,7 +12082,7 @@
 				)
 			)
 		)
-		(property "Value" "80u"
+		(property "Value" "100u"
 			(at 146.05 170.18 90)
 			(effects
 				(font
@@ -12413,7 +12423,7 @@
 				)
 			)
 		)
-		(property "Value" "80u"
+		(property "Value" "100u"
 			(at 69.85 168.91 90)
 			(effects
 				(font
@@ -13674,7 +13684,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20p"
+		(property "Value" "10p"
 			(at 57.15 145.034 0)
 			(effects
 				(font
@@ -14700,7 +14710,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 43.18 109.2199 0)
 			(effects
 				(font
@@ -15180,7 +15190,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "10u"
 			(at 68.326 58.166 0)
 			(effects
 				(font
@@ -15866,7 +15876,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "220p"
 			(at 176.276 120.904 0)
 			(effects
 				(font
@@ -15989,7 +15999,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 40.64 30.48 0)
+		(at 40.64 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15998,7 +16008,7 @@
 		(fields_autoplaced yes)
 		(uuid "c06c374d-ab06-4980-b58c-0014720cc9cd")
 		(property "Reference" "R11"
-			(at 43.18 29.2099 0)
+			(at 43.18 27.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16006,8 +16016,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5k"
-			(at 43.18 31.7499 0)
+		(property "Value" "1k"
+			(at 43.18 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16016,7 +16026,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 38.862 30.48 90)
+			(at 38.862 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16025,7 +16035,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 30.48 0)
+			(at 40.64 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16034,7 +16044,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 40.64 30.48 0)
+			(at 40.64 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
