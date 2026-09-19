@@ -3,5 +3,5 @@
 The goal of the project was to create two devices that would be wirelessly communicating with each other in simplex mode, using quadrature amplitude modulation at the 433 MHz band.
 <img src="wireless_tests.jpg"
      alt="screenshot"
-     width="600"
+     width="60"
      style="transform: rotate(90deg);">
