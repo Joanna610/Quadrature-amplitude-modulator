@@ -1,0 +1,43 @@
+LTspice 24.1.9 for Windows
+Circuit: C:\Users\joann\Desktop\magisterka\Quadrature-amplitude-modulator\receiver\simulation\Draft1.net
+Start Time: Fri May  1 01:00:01 2026
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+vernier = 0.5
+vernier = 0.25
+Gmin = 7.26842e-06
+vernier = 0.333333
+vernier = 0.444444
+Gmin = 3.22622e-06
+vernier = 0.592592
+Gmin = 9.24011e-07
+vernier = 0.790123
+vernier = 1
+Gmin = 1.28327e-07
+Gmin = 1.3779e-08
+Gmin = 1.47951e-09
+Gmin = 1.58861e-10
+Gmin = 1.70576e-11
+Gmin = 1.83154e-12
+Gmin = 1.9666e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.290 seconds.
+
+Files loaded:
+C:\Users\joann\Desktop\magisterka\Quadrature-amplitude-modulator\receiver\simulation\Draft1.net
+C:\Users\joann\AppData\Local\LTspice\lib\sub\LTC7.lib
+

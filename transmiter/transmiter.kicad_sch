@@ -5958,6 +5958,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 148.59) (xy 172.72 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3461e573-357e-4e9e-ab30-aa0451ca61f0")
+	)
+	(wire
+		(pts
 			(xy 31.75 148.59) (xy 41.91 148.59)
 		)
 		(stroke
@@ -7248,7 +7258,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 135.89) (xy 172.72 137.16)
+			(xy 172.72 135.89) (xy 172.72 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7692,9 +7702,9 @@
 		)
 		(uuid "f696fb66-eee6-4c08-a384-3fab6b0ce66f")
 	)
-	(text "https://www.digikey.pl/en/products/MAX2608EUT-T"
+	(text "https://www.digikey.pl/en/products/MAX2608\n"
 		(exclude_from_sim no)
-		(at 183.896 156.21 0)
+		(at 181.61 157.226 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7715,7 +7725,7 @@
 	)
 	(text "https://www.tme.eu/pl/ft232rl-reel/"
 		(exclude_from_sim no)
-		(at 120.142 70.866 0)
+		(at 120.396 70.358 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7763,7 +7773,7 @@
 	)
 	(text "https://botland.com.pl/usb-uart.html"
 		(exclude_from_sim no)
-		(at 120.65 73.66 0)
+		(at 120.904 73.152 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10089,7 +10099,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 172.72 140.97 180)
+		(at 172.72 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10097,7 +10107,7 @@
 		(dnp no)
 		(uuid "2ac8fa06-c442-4b07-8547-ba3d64680b66")
 		(property "Reference" "C32"
-			(at 165.608 139.954 0)
+			(at 165.608 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10106,7 +10116,7 @@
 			)
 		)
 		(property "Value" "220p"
-			(at 165.608 142.494 0)
+			(at 165.608 143.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10115,7 +10125,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 171.7548 137.16 0)
+			(at 171.7548 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10124,7 +10134,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 140.97 0)
+			(at 172.72 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10133,7 +10143,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 172.72 140.97 0)
+			(at 172.72 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10909,7 +10919,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470n"
+		(property "Value" "390n"
 			(at 247.65 38.0999 0)
 			(effects
 				(font
@@ -11111,7 +11121,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "UART"
 			(at 133.985 143.51 0)
 			(effects
 				(font
@@ -14301,7 +14311,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "SWD"
 			(at 111.125 143.51 0)
 			(effects
 				(font
@@ -16816,7 +16826,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 144.78 0)
+		(at 172.72 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16825,7 +16835,7 @@
 		(fields_autoplaced yes)
 		(uuid "eaf5ae5f-8eb0-43f5-9cc9-cad670b326e2")
 		(property "Reference" "#PWR053"
-			(at 172.72 151.13 0)
+			(at 172.72 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16834,7 +16844,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 149.86 0)
+			(at 172.72 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16843,7 +16853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 144.78 0)
+			(at 172.72 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16852,7 +16862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 144.78 0)
+			(at 172.72 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16861,7 +16871,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 144.78 0)
+			(at 172.72 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
